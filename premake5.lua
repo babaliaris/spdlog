@@ -58,10 +58,6 @@ project "spdlog"
     filter{}
     filter "system:Windows"
 
-        defines {
-            "__cplusplus"
-        }
-
         buildoptions {
             "/W3",
             "/WX"
